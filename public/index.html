@@ -42,7 +42,7 @@
         <div class="col-md-3" id="menu">
           <div class="menu">
             <h1 class="bx bx-user-plus" id="menu-head"></h1>Create new customer</h1>
-            <form>
+            <form id="new-customer-form"> 
               <div class="form-group row">
                 <label for="colFormLabel" class="col-sm-2 col-form-label"
                   >Full Name</label
@@ -53,6 +53,7 @@
                     class="form-control"
                     id="colFormLabel"
                     placeholder="Full Name"
+                    name="fullname"
                   />
                 </div>
               </div>
@@ -66,6 +67,7 @@
                     class="form-control"
                     id="colFormLabel"
                     placeholder="Email Address"
+                    name="email"
                   />
                 </div>
               </div>
@@ -79,6 +81,7 @@
                     class="form-control"
                     id="colFormLabel"
                     placeholder=""
+                    name="birthdate"
                   />
                 </div>
               </div>
@@ -92,6 +95,7 @@
                     class="form-control"
                     id="colFormLabel"
                     placeholder="Notes..."
+                    name="notes"
                   />
                 </div>
               </div>
@@ -112,7 +116,7 @@
               </div>
               <div class="form-group row">
                 <div class="col-sm-10">
-                  <button type="submit" onclick="addData(this)" class="btn btn-primary">Create</button>
+                  <button type="submit" name="over18" onclick="productUpdate();" class="btn btn-primary">Create</button>
                 </div>
               </div>
             </form>
@@ -177,7 +181,8 @@
         </div>
       </div>
     </div>
+    <script src="/src/server.js" type="module"></script>
+    <script src="/public/scripts.js"></script>
+    <script type="text/javascript" src="/src/server.js"></script>
   </body>
-  <script src="/src/server.js" type="module"></script>
-
 </html>
