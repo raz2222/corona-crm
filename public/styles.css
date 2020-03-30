@@ -1,0 +1,40 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: large;
+}
+#menu {
+  background-color: #2d3f6b;
+  height: 100vh;
+  padding-top: 30px;
+  position: relative;
+  display: flex;
+}
+
+#main {
+  background-color: #3d444a;
+  padding-top: 50px;
+  overflow: hidden;
+  display: flex;
+}
+
+#menu-head h1 {
+  font-size: 30px;
+  align-items: baseline;
+}
+
+.bx {
+  padding-right: 25px;
+}
+
+form {
+  padding-top: 30px;
+}
+
+h1 {
+}
+
+.btn {
+  margin-left: 60px;
+}
